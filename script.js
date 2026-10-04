@@ -48,7 +48,4 @@ for (let project of projects) {
 
 
 
-
-
-
 }
