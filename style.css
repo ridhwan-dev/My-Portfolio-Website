@@ -1,18 +1,23 @@
 body{
     font-family: Arial, sans-sarif;
     margin: 0;
+    background-color: #f8f1ff
 
 }
 header {
-    background-color: #333;
+    background-color: purple;
     color: white;
     padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 nav a {
-    color: white;
+    color: pink;
     text-decoration: none;
     margin-right: 15px;
+    
 
 }
 main {
@@ -24,7 +29,7 @@ section {
 
 }
 footer {
-    background-color: #333;
+    background-color: purple;
     color: white;
     text-align: center;
     padding: 15px;
@@ -32,6 +37,7 @@ footer {
 }
 h2 {
 margin-bottom: 10px;
+color: purple;
 }
 
 #testimonial-container,
@@ -39,8 +45,14 @@ margin-bottom: 10px;
 
     margin-top: 15px;
 }
+#project-container{
+    display: flex;
+    gap: 20px;
+}
+
+
 contact a {
-    color: #333;
+    color: pink;
     text-decoration: none;
 
 }
@@ -50,15 +62,21 @@ nav a:hover {
 }
 p {
     line-height: 1.6;
+    color: #444;
 }
 h1 {
     margin-top: 0;
+    color: white;
 }
 #testimonial-container > div,
 #project-container > div {
     margin-bottom: 20px;
     padding: 15px;
     border: 1px solid #ddd;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #ddd;
+    
     
 }
 @media (max-width: 600px) {
@@ -74,7 +92,9 @@ nav a {
     
 }
 
-
+h3 {
+    color: purple;
+}
 
 
 
