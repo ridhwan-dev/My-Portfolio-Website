@@ -19,20 +19,36 @@ for (let testimonial of testimonials ) {
     container.appendChild(testimonialElement);
 
 }
-
 const projects = [
+
     {
-        title: "My Portfolio"
-        
+        title: "Rialuxe Abaya Website",
+        description: "A simple website created to showcase abayas and fashion products.",
+        technologies: "HTML, CSS"
+    
+    },
 
-
-
-
+    {
+        title: "Fire Island Travel Blog",
+        description: "A travel blog website about Fire Island and its beautiful beaches.",
+        technologies: "HTML, CSS"
     }
+    ];
+
+
+const projectContainer =document.getElementById("project-container");
+
+
+for (let project of projects) {
+    const projectElement = document.createElement("div")
+    projectElement.innerHTML =`<h3>${project.title}</h3>`;
+    projectElement.innerHTML += `<p>${project.description}</p>`;
+    projectElement.innerHTML += `<p>Technologies: ${project.technologies}</p>`;
+    projectContainer.appendChild(projectElement);
 
 
 
 
 
 
-]
+}
