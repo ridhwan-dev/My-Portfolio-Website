@@ -1,12 +1,12 @@
-const testimonials  = [
+const testimonials  = [-        
     {
         name: "Amina",
-        message: "Ridhwan is a great web developer."
+        message: "they are great web developers."
     },
 
     {
     name: "Hawa",
-    message:"Ridhwan is dedicated and eager to improve."
+    message:"They are dedicated and eager to improve."
 
     }
 
@@ -45,6 +45,7 @@ for (let project of projects) {
     projectElement.innerHTML += `<p>${project.description}</p>`;
     projectElement.innerHTML += `<p>Technologies: ${project.technologies}</p>`;
     projectContainer.appendChild(projectElement);
+
 
 
 
