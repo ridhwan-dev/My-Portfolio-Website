@@ -1,11 +1,11 @@
 const testimonials  = [-        
     {
-        name: "Amina",
+        name: "Ridhwan",
         message: "they are great web developers."
     },
 
     {
-    name: "Hawa",
+    name: "Ridhwan",
     message:"They are dedicated and eager to improve."
 
     }
